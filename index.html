@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal tidak Resmi Desa Gombang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="assets/img/logo-gombang-lite.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="ticker">
+        <marquee>INFO TERKINI: Desa Gombang akan mengadakan event 17 Agustus untuk mempringati hari kemerdekaan Indonesia pada tanggal 23 Agustus 2026. Dengan doorprize utama SEPEDA LISTRIK!! | Selamat datang di website resmi Desa Gombang Cawas.</marquee>
+    </div>
+
+    <nav>
+    <a href="index.html" class="logo-text">
+        <img src="assets/img/logo-gombang.png" alt="Logo Desa Gombang" class="logo-img">
+    </a>
+    
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="kegiatan.html" class="active">Kegiatan</a></li>
+    </ul>
+</nav>
+    <header class="hero">
+        <div class="hero-content">
+            <p>Selamat Datang di Portal Resmi</p>
+            <h1>DESA GOMBANG CAWAS</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Cari layanan, informasi, kegiatan, atau UMKM..." autocomplete="off">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i> Cari</button>
+                <div id="searchResults"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="section-header">
+            <h2>Layanan Publik Utama</h2>
+        </div>
+        
+        <div class="grid-services">
+    <a href="Surat/surat.pdf" download class="service-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-file-invoice"></i></div>
+        <h4>Surat Undangan</h4>
+        <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Download Surat undangan event yang akan datang disini!!.</p>
+    </a>
+
+    <a href="https://wa.me/6285778948765?text=Halo%20Pak,%20saya%20ingin%20melaporkan%20sesuatu%20terkait%20lingkungan%20saya." target="_blank" class="service-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-bullhorn"></i></div>
+        <h4>Lapor Warga</h4>
+        <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Klik untuk lapor masalah lingkungan ke admin desa secara langsung.</p>
+    </a>
+
+    <a href="#bagian-statistik" class="service-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-chart-pie"></i></div>
+        <h4>Data Desa</h4>
+        <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Pantau statistik penduduk dan peta wilayah desa secara transparan.</p>
+    </a> 
+
+    <a href="umkm.html" class="service-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-store"></i></div>
+        <h4>UMKM Lokal</h4>
+        <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Temukan berbagai produk kerajinan dan kuliner unggulan warga Gombang.</p>
+    </a>
+</div>
+
+        <div class="info-grid" id="bagian-statistik">
+            <div class="info-card">
+                <div class="card-header"><h3><i class="fa-solid fa-chart-pie"></i> Statistik Penduduk</h3></div>
+                
+                <div class="stat-row">
+                    <span>Bayi & Anak-anak <span>12%</span></span>
+                    <div class="bar-bg"><div class="bar-fill bg-bayi" style="width: 12%;"></div></div>
+                </div>
+                <div class="stat-row">
+                    <span>Remaja <span>25%</span></span>
+                    <div class="bar-bg"><div class="bar-fill bg-remaja" style="width: 25%;"></div></div>
+                </div>
+                <div class="stat-row">
+                    <span>Dewasa <span>48%</span></span>
+                    <div class="bar-bg"><div class="bar-fill bg-dewasa" style="width: 48%;"></div></div>
+                </div>
+                <div class="stat-row">
+                    <span>Lansia <span>15%</span></span>
+                    <div class="bar-bg"><div class="bar-fill bg-lansia" style="width: 15%;"></div></div>
+                </div>
+            </div>
+
+            <div class="info-card map-container">
+                <div class="card-header"><h3><i class="fa-solid fa-map-location-dot"></i> Peta Wilayah</h3></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.912423854958!2d110.669528!3d-7.618641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a46d1b764c6f5%3A0x5027a76e3552d00!2sGombang%2C%20Cawas%2C%20Klaten!5e0!3m2!1sid!2sid!4v1684970000000" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2026 Pemerintah Desa Gombang, Kecamatan Cawas.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
